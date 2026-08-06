@@ -1,4 +1,4 @@
-# Maedeh Agharazzi Academic Website
+# Maedeh Agharazi Academic Website
 
 A responsive, minimal academic portfolio built with plain HTML, CSS, and JavaScript.
 
