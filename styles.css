@@ -16,3 +16,11 @@ a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
 .pub-year,.timeline-date{font-weight:700;color:var(--plum)}.pub-title,.timeline-role{font-weight:700}.pub-meta{color:var(--muted);font-size:14px}
 .contact-box{background:var(--green-pale);border-left:4px solid var(--green);padding:24px}.footer{max-width:850px;margin:0 auto;padding:0 28px 36px;text-align:center;color:#999;font-size:12px}
 @media(max-width:720px){.site-shell{padding:38px 20px 60px}.site-title{font-size:3rem}.rule{width:70%;margin:54px auto 34px}.home-intro{grid-template-columns:1fr}.headshot{max-width:360px;margin:0 auto 18px}.pillars{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:4px}}
+body {
+  margin: 0;
+  background: #F7F5F2;
+  color: #29262A;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.75;
+}
