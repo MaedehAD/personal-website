@@ -1,10 +1,10 @@
 :root {
   --plum: #633B52;
-  --green: #A8BFA8;
+--Beige #DDD0C8;
   --green-pale: #EDF2EC;
-  --ink: #29272A;
+  --ink: #323232;
   --muted: #777177;
-  --line: #DDD8DA;
+  --line: #323232;
   --page: #F8F6F3;
 }
 *{box-sizing:border-box}
