@@ -114,7 +114,26 @@ a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
   margin: 0 28px 16px 0;
   object-fit: cover;
 }
+.pub-title a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
+.pub-title a:hover {
+  color: var(--plum);
+  text-decoration: none;
+}
+
+.pub-meta a {
+  color: var(--plum);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pub-meta a:hover {
+  text-decoration: underline;
+}
 .home-intro::after {
   content: "";
   display: block;
