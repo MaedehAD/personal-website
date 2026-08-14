@@ -1,11 +1,51 @@
-:root {
-  --plum: #633B52;
-  --Beige #DDD0C8;
-  --green-pale: #657166;
-  --ink: #323232;
-  --muted: #777177;
-  --line: #323232;
-  --page: #F8F6F3;
+body {
+  background-color: var(--page);
+  color: var(--ink);
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--plum);
+}
+
+a {
+  color: var(--plum);
+  text-decoration-color: var(--beige);
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: var(--plum-dark);
+}
+
+header,
+nav {
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--line);
+}
+
+section {
+  border-bottom: 1px solid var(--line);
+}
+
+.highlight-box {
+  background-color: var(--sage-light);
+  border-left: 4px solid var(--sage);
+}
+
+button,
+.button {
+  background-color: var(--plum);
+  color: #FFFFFF;
+  border: 1px solid var(--plum);
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--plum-dark);
+  border-color: var(--plum-dark);
 }
 *{box-sizing:border-box}
 body {
