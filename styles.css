@@ -1,6 +1,6 @@
 :root {
   --plum: #633B52;
---Beige #DDD0C8;
+  --Beige #DDD0C8;
   --green-pale: #657166;
   --ink: #323232;
   --muted: #777177;
@@ -11,7 +11,7 @@
 body {
   margin: 0;
   background: #F7F5F2;
-  color: #29262A;
+  color: #DDD0C8;
   font-family: "Aptos", Arial, sans-serif;
   font-size: 15px;
   line-height: 1.75;
