@@ -72,9 +72,9 @@ button:hover,
 body {
   margin: 0;
   background: #F7F5F2;
-  color: #DDD0C8;
+  color: #2F2D2E;
   font-family: "Aptos", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.75;
 }
 a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
