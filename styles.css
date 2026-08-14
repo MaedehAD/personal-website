@@ -36,6 +36,15 @@ a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
 .home-intro {
   display: block;
 }
+.pub-title a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: var(--plum);
+  text-decoration: underline;
+}
 
 .headshot {
   float: left;
