@@ -1,3 +1,24 @@
+:root {
+  /* Primary brand colors */
+  --plum: #633B52;
+  --plum-dark: #482A3B;
+  --plum-light: #EEE5EA;
+
+  /* Supporting colors */
+  --sage: #657166;
+  --sage-light: #E7EBE6;
+  --beige: #DDD0C8;
+
+  /* Text and structural colors */
+  --ink: #2F2D2E;
+  --muted: #706A6E;
+  --line: #D8D1CD;
+
+  /* Backgrounds */
+  --page: #F8F6F3;
+  --surface: #FFFFFF;
+  --surface-warm: #F0EAE5;
+}
 body {
   background-color: var(--page);
   color: var(--ink);
