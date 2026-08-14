@@ -24,7 +24,7 @@ a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
   font-family: "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   font-size: clamp(3rem, 7vw, 5.4rem);
   line-height: .95;
-  letter-spacing: -.055em;
+  letter-spacing: -.05em;
   text-transform: uppercase;
   font-weight: 600;
 }
