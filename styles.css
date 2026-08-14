@@ -16,7 +16,7 @@
 
   /* Backgrounds */
   --page: #F8F6F3;
-  --surface: #FFFFFF;
+  --surface: #F0EAE5;
   --surface-warm: #F0EAE5;
 }
 body {
@@ -59,7 +59,6 @@ section {
 button,
 .button {
   background-color: var(--plum);
-  color: #FFFFFF;
   border: 1px solid var(--plum);
 }
 
@@ -97,42 +96,66 @@ a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
 .home-intro {
   display: block;
 }
-.pub-title a {
+.publication-list {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.publication-item {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.publication-item:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.publication-year {
+  margin-bottom: 7px;
+  color: var(--plum);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.publication-title {
+  margin: 0 0 7px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.publication-title a {
   color: var(--ink);
   text-decoration: none;
 }
 
-.pub-title a:hover {
+.publication-title a:hover {
   color: var(--plum);
-  text-decoration: underline;
 }
 
-.headshot {
-  float: left;
-  width: 230px;
-  height: auto;
-  margin: 0 28px 16px 0;
-  object-fit: cover;
-}
-.pub-title a {
-  color: var(--ink);
-  text-decoration: none;
-  transition: color 0.2s ease;
+.publication-venue {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+  font-style: italic;
 }
 
-.pub-title a:hover {
+.publication-link {
   color: var(--plum);
-  text-decoration: none;
-}
-
-.pub-meta a {
-  color: var(--plum);
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
 }
 
-.pub-meta a:hover {
+.publication-link:hover {
   text-decoration: underline;
+}
+
+.full-cv-link {
+  max-width: 720px;
+  margin: 30px auto 0;
 }
 .home-intro::after {
   content: "";
