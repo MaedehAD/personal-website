@@ -1,0 +1,18 @@
+
+:root{--plum:#6b3f5d;--green:#a9d6b5;--green-pale:#eef6f0;--ink:#202124;--muted:#777078;--line:#dadadd;--page:#fbfbfa}
+*{box-sizing:border-box}body{margin:0;background:var(--page);color:var(--ink);font:15px/1.6 Arial,Helvetica,sans-serif}
+a{color:var(--plum);text-decoration:none}a:hover{text-decoration:underline}
+.site-shell{max-width:850px;margin:0 auto;padding:58px 28px 80px}.site-header{text-align:center}
+.site-title{margin:0;font-family:"Arial Narrow","Helvetica Neue",Arial,sans-serif;font-size:clamp(3rem,7vw,5.4rem);line-height:.95;letter-spacing:-.055em;text-transform:uppercase;font-weight:800}
+.site-subtitle{margin:10px 0 14px;color:#9a9398;font:italic 14px Georgia,"Times New Roman",serif}
+.nav{display:flex;justify-content:center;flex-wrap:wrap;gap:18px}.nav a{color:#111;font-size:12px;font-weight:800;text-transform:uppercase}.nav a[aria-current="page"]{color:var(--plum)}
+.rule{width:46%;height:1px;background:#222;margin:86px auto 46px}
+.home-intro{display:grid;grid-template-columns:290px 1fr;gap:18px;align-items:start}.headshot{width:100%;display:block;aspect-ratio:1/1.08;object-fit:cover}
+.bio p{margin:0 0 18px}.page-heading{margin:0 0 34px;font:400 32px Georgia,"Times New Roman",serif;color:var(--plum)}
+.section-block{margin:0 0 44px}.section-block h2{margin:0 0 10px;font:400 21px Georgia,"Times New Roman",serif}
+.pillars{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px}.pillar{border-left:3px solid var(--green);padding-left:14px}.pillar strong{color:var(--plum)}
+.process{margin-top:16px;color:var(--muted)}.process span{color:var(--plum);font-weight:700}
+.pub,.timeline-item{display:grid;gap:18px;padding:14px 0;border-bottom:1px solid var(--line)}.pub{grid-template-columns:64px 1fr}.timeline-item{grid-template-columns:120px 1fr}.pub:first-of-type,.timeline-item:first-of-type{border-top:1px solid var(--line)}
+.pub-year,.timeline-date{font-weight:700;color:var(--plum)}.pub-title,.timeline-role{font-weight:700}.pub-meta{color:var(--muted);font-size:14px}
+.contact-box{background:var(--green-pale);border-left:4px solid var(--green);padding:24px}.footer{max-width:850px;margin:0 auto;padding:0 28px 36px;text-align:center;color:#999;font-size:12px}
+@media(max-width:720px){.site-shell{padding:38px 20px 60px}.site-title{font-size:3rem}.rule{width:70%;margin:54px auto 34px}.home-intro{grid-template-columns:1fr}.headshot{max-width:360px;margin:0 auto 18px}.pillars{grid-template-columns:1fr}.timeline-item{grid-template-columns:1fr;gap:4px}}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1050" viewBox="0 0 900 1050">
+<rect width="900" height="1050" fill="#eef6f0"/>
+<circle cx="450" cy="340" r="150" fill="#6b3f5d" opacity=".18"/>
+<path d="M170 920c30-210 160-335 280-335s250 125 280 335" fill="#6b3f5d" opacity=".18"/>
+<text x="450" y="980" text-anchor="middle" font-family="Arial" font-size="30" fill="#6b3f5d">Replace with assets/headshot.jpg</text>
+</svg>
