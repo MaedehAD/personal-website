@@ -40,12 +40,12 @@ body {
   background: var(--page);
   color: var(--ink);
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.75;
 }
 
 img {
-  max-width: 70px;
+  max-width: 270px;
 }
 
 a {
@@ -90,9 +90,9 @@ button:focus-visible,
   color: var(--ink);
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
   font-size: clamp(3rem, 7vw, 5.4rem);
-  font-weight: 600;
+  font-weight: 450;
   line-height: 0.95;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.07em;
   text-transform: uppercase;
 }
 
@@ -161,8 +161,8 @@ button:focus-visible,
   margin: 0 0 34px;
   color: var(--plum);
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 360;
   line-height: 1.25;
 }
 
@@ -175,7 +175,7 @@ button:focus-visible,
   color: var(--plum);
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.35;
 }
 
