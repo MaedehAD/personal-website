@@ -365,11 +365,12 @@ button:hover,
     margin: 54px auto 34px;
   }
 
-  .headshot {
-    float: none;
-    width: min(100%, 320px);
-    margin: 0 auto 24px;
-  }
+.home-intro .headshot {
+  float: none;
+  width: min(100%, 360px);
+  max-width: 100%;
+  margin: 0 auto 24px;
+}
 
   .pillars {
     grid-template-columns: 1fr;
