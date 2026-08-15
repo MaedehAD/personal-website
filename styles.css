@@ -89,10 +89,10 @@ button:focus-visible,
   margin: 0;
   color: var(--ink);
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
-  font-size: clamp(2.5rem, 6vw, 4.4rem);
-  font-weight: 450;
-  line-height: 0.95;
-  letter-spacing: -0.07em;
+  font-size: clamp(3rem, 6.5vw, 4.5rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.055em;
   text-transform: uppercase;
 }
 
@@ -184,7 +184,7 @@ button:focus-visible,
   font-family: Aptos, "Segoe UI", Arial, sans-serif;
 }
 
-/* Home introduction and wrapped headshot */
+/* Home introduction with wrapped headshot */
 
 .home-intro {
   display: flow-root;
@@ -192,9 +192,11 @@ button:focus-visible,
 
 .home-intro .headshot {
   float: left;
+  display: block;
   width: 285px;
+  max-width: 42%;
   height: auto;
-  margin: 6px 30px 16px 0;
+  margin: 5px 30px 16px 0;
   border-radius: 3px;
   object-fit: cover;
 }
@@ -202,6 +204,7 @@ button:focus-visible,
 .home-intro p {
   margin: 0 0 18px;
 }
+
 .bio p {
   margin: 0 0 18px;
 }
